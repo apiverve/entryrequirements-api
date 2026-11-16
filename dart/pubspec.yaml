@@ -1,0 +1,16 @@
+name: apiverve_entryrequirements
+description: "Travel Entry Requirements returns what a destination asks of a visitor's passport and health documents: how long the passport must stay valid and from when, and whether a yellow fever certificate is required. Paid plans add a passport check against your trip dates, the blank pages it needs, the Schengen 10-year issue rule, the current UK and US travel advisory levels and plain-English guidance for each rule."
+version: 1.2.6
+homepage: https://apiverve.com/marketplace/entryrequirements?utm_source=dart&utm_medium=referral&utm_content=homepage
+repository: https://github.com/apiverve/entryrequirements-api/tree/main/dart
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  http: ^1.1.0
+  http_parser: ^4.0.0
+
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.24.0
